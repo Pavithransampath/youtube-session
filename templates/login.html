@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Youtube Login</title>
+    <link rel="stylesheet" type="text/css" href="/static/login.css">
+</head>
+
+<body>
+    <div class="container1">
+        <img src="/static/imag/google-logo.png " class="glogo">
+        <form method="post">
+            <input type="text" placeholder="User Name" name="name">
+            <input type="text" placeholder="Email" required name="Email">
+            <input type="password" placeholder="Password" required name="Password"><br><br>
+            <button type="submit">Login</button><br><br>
+        </form>
+      
+      
+      <h4>or</h4>
+      
+    <a href="{{url_for('newUser')}}"><p>Create a New User</p></a>
+
+    </div>
+</body>
+
+</html>

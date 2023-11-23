@@ -1,0 +1,60 @@
+.container1 {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 150px;
+    border-color: #626262;
+    border-style: solid;
+    box-shadow: 5px 5px 5px 5px #626262;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.out {
+    background-color: #ed3833;
+
+}
+
+
+
+h4 {
+    margin-bottom: 15px;
+    margin-top: 1px;
+}
+
+
+
+.glogo {
+
+    height: 70px;
+    width: 100px;
+
+}
+
